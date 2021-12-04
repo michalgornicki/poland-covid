@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(221, 221, 221);
+}
+
+.text-container{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    width: 70%;
+}
+
+.header{
+    font-size: 6vmin;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: gray;
+}
+
+.header-2{
+    font-size: 2vmin;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: rgb(218, 218, 218);
+}
+
+.counter{
+    font-size: 20vmin;
+    font-weight: 900;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.counter-2{
+    font-size: 3vmin;
+    display: block;
+    margin: auto;
+    margin-top: 1vmin;
+    width: 50%;
+    text-align: center;
+}
+
+.counter-3{
+    font-size: 3vmin;
+    display: block;
+    margin: auto;
+    margin-top: 2vmin;
+    width: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}

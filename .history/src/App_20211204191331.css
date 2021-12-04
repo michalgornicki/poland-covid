@@ -1,0 +1,29 @@
+.text-container{
+    margin-top: 5%;
+}
+
+.header{
+    font-size: 6vmin;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: gray;
+}
+
+.header-2{
+    font-size: 3vmin;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: rgb(184, 184, 184);
+}
+
+.counter{
+    font-size: 15vmin;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}

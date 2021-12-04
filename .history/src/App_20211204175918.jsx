@@ -1,0 +1,24 @@
+import React from 'react';
+import './App.css';
+
+function App() {
+
+
+const createDate = () => {
+var date = new Date().toLocaleString();
+return date
+}
+
+const countDate = setInterval(() => {
+  new Date().toLocaleString();
+}, 100);
+
+
+  return (
+    <p>
+      <div className="counter">{countDate}</div>
+    </p>
+  );
+}
+
+export default App;

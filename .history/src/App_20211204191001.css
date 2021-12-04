@@ -1,0 +1,16 @@
+.header{
+    font-size: 6vmin;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: gray;
+}
+
+.counter{
+    font-size: 12vmin;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}

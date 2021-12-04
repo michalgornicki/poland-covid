@@ -1,0 +1,15 @@
+.header{
+    font-size: 6vmin;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.counter{
+    font-size: 9vmin;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
