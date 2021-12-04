@@ -62,7 +62,7 @@ body{
     display: block;
     margin: auto;
     margin-top: 2vmin;
-    width: 70%;
+    width: 50%;
     text-align: center;
     color: rgb(255, 31, 31);
 }
@@ -140,21 +140,10 @@ body{
         font-size: 6vmin;
         display: block;
         margin: auto;
-        margin-top: 5vmin;
+        margin-top: 10vmin;
         width: fit-content;
         text-align: center;
         color: rgb(255, 31, 31);
-    }
-
-
-    .counter-5{
-        font-size: 5vmin;
-        display: block;
-        margin: auto;
-        margin-top: 5vmin;
-        width: fit-content;
-        text-align: center;
-        color: rgb(87, 87, 87);
     }
 
 }

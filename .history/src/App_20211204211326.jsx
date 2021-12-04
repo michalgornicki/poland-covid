@@ -21,15 +21,14 @@ function App() {
       deathsPerMillion + "/mln mieszkańców";
     document.getElementsByClassName("counter-3")[0].innerHTML =
       "Łącznie na Covid-19 zginęło w Polsce już " + (deaths + 28556) + " osób.";
+      document.getElementsByClassName("counter-3")[0].innerHTML =
+      "Według danych raportu Health at Glance liczba nadmiarowych zgonów w Polsce względem lat ubiegłych wskazuje na to, że liczba ofiar Covid-19 jest wyższa o 85%. Pełna liczba ofiar związanych z epidemią (obciążenie ochrony zdrowia itd.) wynosi obecnie: " + (excessDeaths) + <b>" osób.";
     document.getElementsByClassName("counter-4")[0].innerHTML =
       "To tyle ile " + smolensk + " katastrofy smoleńskie.";
       document.getElementsByClassName("counter-4")[1].innerHTML =
       "To " + tradeCenter + " razy więcej ofiar niż w wyniku zamachu na World Trade Center.";
       document.getElementsByClassName("counter-4")[2].innerHTML =
       "To " + uprising + "% ofiar Powstania Warszawskiego.";
-
-      document.getElementsByClassName("counter-5")[0].innerHTML =
-      "Według danych raportu Health at Glance liczba nadmiarowych zgonów w Polsce względem lat ubiegłych wskazuje na to, że liczba ofiar Covid-19 jest wyższa o 85%. Pełna liczba ofiar związanych z epidemią (obciążenie ochrony zdrowia itd.) wynosi więc obecnie: " + (excessDeaths) + " osób.";
 
     setTimeout(startTime, 1000);
   };
@@ -53,7 +52,6 @@ function App() {
         <div className="counter-4"></div>
         <div className="counter-4"></div>
         <div className="counter-4"></div>
-        <div className="counter-5"></div>
       </div>
     </p>
   );
