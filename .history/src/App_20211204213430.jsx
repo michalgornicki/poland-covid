@@ -8,9 +8,9 @@ function App() {
     let seconds = Math.round(miliseconds / 1000);
     let thisYearSeconds = Math.round(seconds - 1609401600);
     let deaths = Math.round(thisYearSeconds * 0.00192110763);
-    let excessDeaths = Math.round(deaths*1.85);
+    let excessDeaths = Math.round(allDeaths*1.85);
     let allDeaths = deaths + 28556;
-    let excessAllDeaths = Math.round(allDeaths*1.85);
+    let excessDeaths = Math.round(allDeaths*1.85);
     let smolensk = Math.round(allDeaths / 96);
     let tradeCenter = Math.round(allDeaths / 2977);
     let uprising = (allDeaths / 175000).toFixed(2) * 100;
@@ -22,7 +22,7 @@ function App() {
     document.getElementsByClassName("counter-2")[0].innerHTML =
       deathsPerMillion + "/mln mieszkańców";
     document.getElementsByClassName("counter-3")[0].innerHTML =
-      "Łącznie na Covid-19 zginęło w Polsce już " + (allDeaths) + " osób (" + excessAllDeaths + " wliczając nadmiarowe zgony*).";
+      "Łącznie na Covid-19 zginęło w Polsce już " + (deaths + 28556) + " osób.";
     document.getElementsByClassName("counter-4")[0].innerHTML =
       "To tyle ile " + smolensk + " katastrofy smoleńskie.";
       document.getElementsByClassName("counter-4")[1].innerHTML =
@@ -31,7 +31,7 @@ function App() {
       "To " + uprising + "% ofiar Powstania Warszawskiego.";
 
       document.getElementsByClassName("counter-5")[0].innerHTML =
-      "*Według danych raportu Health at Glance liczba nadmiarowych zgonów w Polsce względem lat ubiegłych wskazuje na to, że liczba ofiar Covid-19 jest wyższa o 85%. Pełna liczba ofiar związanych z epidemią (obciążenie ochrony zdrowia itd.) wynosi więc obecnie: " + (excessAllDeaths) + " osób.";
+      "*Według danych raportu Health at Glance liczba nadmiarowych zgonów w Polsce względem lat ubiegłych wskazuje na to, że liczba ofiar Covid-19 jest wyższa o 85%. Pełna liczba ofiar związanych z epidemią (obciążenie ochrony zdrowia itd.) wynosi więc obecnie: " + (excessDeaths) + " osób.";
 
     setTimeout(startTime, 1000);
   };

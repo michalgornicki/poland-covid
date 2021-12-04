@@ -22,7 +22,7 @@ function App() {
     document.getElementsByClassName("counter-2")[0].innerHTML =
       deathsPerMillion + "/mln mieszkańców";
     document.getElementsByClassName("counter-3")[0].innerHTML =
-      "Łącznie na Covid-19 zginęło w Polsce już " + (allDeaths) + " osób (" + excessAllDeaths + " wliczając nadmiarowe zgony*).";
+      "Łącznie na Covid-19 zginęło w Polsce już " + (allDeaths) + " osób. (" + excessAllDeaths;
     document.getElementsByClassName("counter-4")[0].innerHTML =
       "To tyle ile " + smolensk + " katastrofy smoleńskie.";
       document.getElementsByClassName("counter-4")[1].innerHTML =
