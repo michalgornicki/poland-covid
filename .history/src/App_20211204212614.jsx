@@ -13,13 +13,11 @@ function App() {
     let smolensk = Math.round(allDeaths / 96);
     let tradeCenter = Math.round(allDeaths / 2977);
     let uprising = (allDeaths / 175000).toFixed(2) * 100;
-    let deathsPerMillion = Math.round(deaths / 37.95);
 
 
     document.getElementsByClassName("counter")[0].innerHTML = deaths;
-    document.getElementsByClassName("counter-1")[0].innerHTML = excessDeaths + " (+ 85% nadmiarowych zgonów)*";
-    document.getElementsByClassName("counter-2")[0].innerHTML =
-      deathsPerMillion + "/mln mieszkańców";
+    let deathsPerMillion = Math.round(deaths / 37.95);
+    
     document.getElementsByClassName("counter-3")[0].innerHTML =
       "Łącznie na Covid-19 zginęło w Polsce już " + (deaths + 28556) + " osób.";
     document.getElementsByClassName("counter-4")[0].innerHTML =
@@ -30,7 +28,7 @@ function App() {
       "To " + uprising + "% ofiar Powstania Warszawskiego.";
 
       document.getElementsByClassName("counter-5")[0].innerHTML =
-      "*Według danych raportu Health at Glance liczba nadmiarowych zgonów w Polsce względem lat ubiegłych wskazuje na to, że liczba ofiar Covid-19 jest wyższa o 85%. Pełna liczba ofiar związanych z epidemią (obciążenie ochrony zdrowia itd.) wynosi więc obecnie: " + (excessDeaths) + " osób.";
+      "Według danych raportu Health at Glance liczba nadmiarowych zgonów w Polsce względem lat ubiegłych wskazuje na to, że liczba ofiar Covid-19 jest wyższa o 85%. Pełna liczba ofiar związanych z epidemią (obciążenie ochrony zdrowia itd.) wynosi więc obecnie: " + (excessDeaths) + " osób.";
 
     setTimeout(startTime, 1000);
   };
@@ -49,7 +47,7 @@ function App() {
           (W zeszłym roku w Polsce na koronawirusa zginęło 28556 osób.)
         </div>
         <div className="counter">{""}</div>
-        <div className="counter-1">{""}</div>
+        <div className="counter">{""}</div>
         <div className="counter-2">{""}</div>
         <div className="counter-3"></div>
         <div className="counter-4"></div>

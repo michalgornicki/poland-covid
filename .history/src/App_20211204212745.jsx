@@ -17,7 +17,7 @@ function App() {
 
 
     document.getElementsByClassName("counter")[0].innerHTML = deaths;
-    document.getElementsByClassName("counter-1")[0].innerHTML = excessDeaths + " (+ 85% nadmiarowych zgonów)*";
+    document.getElementsByClassName("counter-1")[0].innerHTML = excessDeaths = "()";
     document.getElementsByClassName("counter-2")[0].innerHTML =
       deathsPerMillion + "/mln mieszkańców";
     document.getElementsByClassName("counter-3")[0].innerHTML =
@@ -30,7 +30,7 @@ function App() {
       "To " + uprising + "% ofiar Powstania Warszawskiego.";
 
       document.getElementsByClassName("counter-5")[0].innerHTML =
-      "*Według danych raportu Health at Glance liczba nadmiarowych zgonów w Polsce względem lat ubiegłych wskazuje na to, że liczba ofiar Covid-19 jest wyższa o 85%. Pełna liczba ofiar związanych z epidemią (obciążenie ochrony zdrowia itd.) wynosi więc obecnie: " + (excessDeaths) + " osób.";
+      "Według danych raportu Health at Glance liczba nadmiarowych zgonów w Polsce względem lat ubiegłych wskazuje na to, że liczba ofiar Covid-19 jest wyższa o 85%. Pełna liczba ofiar związanych z epidemią (obciążenie ochrony zdrowia itd.) wynosi więc obecnie: " + (excessDeaths) + " osób.";
 
     setTimeout(startTime, 1000);
   };

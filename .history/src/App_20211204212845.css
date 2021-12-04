@@ -14,7 +14,7 @@ body{
     font-size: 6vmin;
     display: block;
     margin: auto;
-    width: 80%;
+    width: 50%;
     text-align: center;
     color: gray;
 }
@@ -40,10 +40,9 @@ body{
 
 .counter-1{
     font-size: 4vmin;
-    font-weight: 600;
+    font-weight: 900;
     display: block;
     margin: auto;
-    margin-bottom: 4vmin;
     width: 70%;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -125,17 +124,6 @@ body{
         display: block;
         margin: auto;
         width: fit-content;
-        text-align: center;
-        color: rgb(0, 0, 0);
-    }
-
-    .counter-1{
-        font-size: 6vmin;
-        font-weight: 600;
-        display: block;
-        margin: auto;
-        margin-bottom: 4vmin;
-        width: 100%;
         text-align: center;
         color: rgb(0, 0, 0);
     }

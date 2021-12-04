@@ -128,17 +128,6 @@ body{
         text-align: center;
         color: rgb(0, 0, 0);
     }
-
-    .counter-1{
-        font-size: 6vmin;
-        font-weight: 600;
-        display: block;
-        margin: auto;
-        margin-bottom: 4vmin;
-        width: 100%;
-        text-align: center;
-        color: rgb(0, 0, 0);
-    }
     
     .counter-2{
         font-size: 6vmin;

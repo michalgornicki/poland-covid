@@ -130,12 +130,12 @@ body{
     }
 
     .counter-1{
-        font-size: 6vmin;
+        font-size: 4vmin;
         font-weight: 600;
         display: block;
         margin: auto;
         margin-bottom: 4vmin;
-        width: 100%;
+        width: 70%;
         text-align: center;
         color: rgb(0, 0, 0);
     }
