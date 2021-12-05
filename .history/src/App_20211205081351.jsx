@@ -7,7 +7,7 @@ function App() {
     let miliseconds = date.getTime();
     let seconds = Math.round(miliseconds / 1000);
     let thisYearSeconds = Math.round(seconds - 1609401600);
-    let deaths = Math.round(thisYearSeconds * 0.00196017419);
+    let deaths = Math.round(thisYearSeconds * 0.00192110763);
     let excessDeaths = Math.round(deaths*1.85);
     let allDeaths = deaths + 28556;
     let excessAllDeaths = Math.round(allDeaths*1.85);
